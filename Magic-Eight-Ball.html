@@ -14,19 +14,19 @@
     <div class="Question-and-Eightball">
         <div class="Question-Box">
             <div class="question_header">
-                <h1>What Would you Like to Know?</h1>
+                <h1 id="question">What Would you Like to Know?</h1>
             </div>
 
-            <input type="text" id="Question" placeholder="Insert Question Here!"></input>
-            <button onclick="Submission()" id="Submission-Button">Enter</button>
+            <input type="text" id="question" placeholder="Insert Question Here!" />
+            
             <script src="Javascript/text-convo.js"></script>
         </div>
 
-        <button onclick="Animate()" class="ball-outer-layer" id="BOL">
+        <button onclick="Animate(); document.getElementById('question').value=''" class="ball-outer-layer"  id="BOL">
             <div class="ball-inner-layer">
                 
-                <h1 Id="eight-ball">Hello World!</h1>
-                <script>document.getElementById("eight-ball").innerHTML = Animate() </script>
+                <h1 Id="eightBall">Click<br>Me!</h1>
+                
             </div>
         </button>
         <script src="Javascript/Animaton.js"></script>
@@ -36,7 +36,7 @@
 
 
     <div class="footer">
-        <!-- Move to Footer -->
+        
         <div class="Magic-Eight-Convo-Recorder">
             <div id="question-asked" class="question-asked Convo-wrapper">
                 <h2>does my crush like me?</h2>
@@ -46,8 +46,9 @@
             </div>
         </div>
         
-        <!-- Move to Footer -->
+        
     </div>
 </body>
 
 </html>
+
