@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Eight Ball</title>
+    <link rel="stylesheet" href="CSS/Magic-Eight-Ball.css">
+</head>
+
+<body>
+
+    <div class="Question-and-Eightball">
+        <div class="Question-Box">
+            <div class="question_header">
+                <h1>What Would you Like to Know?</h1>
+            </div>
+
+            <input type="text" id="Question" placeholder="Insert Question Here!"></input>
+            <button onclick="Submission()" id="Submission-Button">Enter</button>
+            <script src="Javascript/text-convo.js"></script>
+        </div>
+
+        <button onclick="Animate()" class="ball-outer-layer" id="BOL">
+            <div class="ball-inner-layer">
+                
+                <h1 Id="eight-ball">Hello World!</h1>
+                <script>document.getElementById("eight-ball").innerHTML = Animate() </script>
+            </div>
+        </button>
+        <script src="Javascript/Animaton.js"></script>
+    </div>
+
+
+
+
+    <div class="footer">
+        <!-- Move to Footer -->
+        <div class="Magic-Eight-Convo-Recorder">
+            <div id="question-asked" class="question-asked Convo-wrapper">
+                <h2>does my crush like me?</h2>
+            </div>
+            <div class="question-answer Convo-wrapper">
+                <h3>Hell no</h3>
+            </div>
+        </div>
+        
+        <!-- Move to Footer -->
+    </div>
+</body>
+
+</html>
