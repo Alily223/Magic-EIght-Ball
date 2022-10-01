@@ -1,15 +1,23 @@
 $Main-color-1: antiquewhite;
 
-html,body {
-    margin:0;
-    padding:0;
+html,
+body {
+    margin: 0;
+    padding: 0;
 }
 
 body {
+    max-width: 800px;
+    margin: auto;
     background-image: url(https://c4.wallpaperflare.com/wallpaper/801/682/468/ball-crystal-face-fantasy-wallpaper-preview.jpg);
+    background-size: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-position-y: top;
     background-repeat: no-repeat;
-    background-size: contain;
 }
+
+
 
 .Question-and-Eightball {
     display: flex;
@@ -33,10 +41,10 @@ body {
 }
 
 .ball-outer-layer {
-    .ball-inner-layer{
+    .ball-inner-layer {
         background-color: white;
         display: flex;
-        align-items:center;
+        align-items: center;
         justify-content: center;
         border: 1px solid white;
         height: 120px;
@@ -56,33 +64,43 @@ body {
     0% {
         transform: translateX(0);
     }
+
     11% {
         transform: translateX(10px);
     }
+
     22% {
         transform: translateX(-20px);
     }
+
     33% {
         transform: translateX(20px);
     }
+
     44% {
         transform: translateX(-20px);
     }
+
     55% {
         transform: translateX(20px);
     }
+
     66% {
         transform: translateX(-20px);
     }
+
     77% {
         transform: translateX(20px);
     }
+
     88% {
         transform: translateX(-20px);
     }
+
     99% {
         transform: translateX(20px);
     }
+
     100% {
         transform: translateX(-10px);
     }
@@ -90,17 +108,17 @@ body {
 
 .Question-Box {
     display: flex;
-    
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border:1px solid black;
+    border: 1px solid black;
     height: 100px;
     width: 400px;
-    background-color:white;
+    background-color: white;
     opacity: 0.8;
-    padding-bottom:10px;
-    
+    padding-bottom: 10px;
+
 }
 
 .question_header {
@@ -108,17 +126,17 @@ body {
     font-size: .75em;
 }
 
-.Question-Box input{
-    height:150px;
+.Question-Box input {
+    height: 150px;
     width: 350px;
     background-color: $Main-color-1;
     border: 1px solid black;
     border-radius: 10px 0px 10px 0px;
-   
+
 }
 
 .footer {
-    background-color:$Main-color-1;
+    background-color: $Main-color-1;
     height: 500px;
 }
 
@@ -133,6 +151,6 @@ body {
 
 .Magic-Eight-Convo-Recorder {
     .Question-answer {
-       text-align-last: right;
+        text-align-last: right;
     }
 }

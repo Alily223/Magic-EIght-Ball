@@ -1,0 +1,16 @@
+@media (max-width: 615px){
+    body {
+        background-image: url(https://media.istockphoto.com/photos/mysterious-fortune-teller-gazes-into-crystal-ball-seeing-the-future-picture-id157590886?k=20&m=157590886&s=612x612&w=0&h=kDqA677HYKbVuSD9oH8YBwXheGObhBxR4rE3rApexas=);
+        aspect-ratio: auto;
+        background-size: 615px 615px;
+        background-position: top;
+    }
+
+    .ball-outer-layer {
+        height: 250px;
+        width: 250px;
+        position: relative;
+        top: -60px;
+        left: -10px;
+    }
+}

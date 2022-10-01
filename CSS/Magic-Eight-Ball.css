@@ -1,12 +1,18 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
 
 body {
+  max-width: 800px;
+  margin: auto;
   background-image: url(https://c4.wallpaperflare.com/wallpaper/801/682/468/ball-crystal-face-fantasy-wallpaper-preview.jpg);
+  background-size: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-position-y: top;
   background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .Question-and-Eightball {
